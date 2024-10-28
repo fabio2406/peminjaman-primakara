@@ -10,10 +10,6 @@
     },
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        },
-        {
             "src": "/css/(.*)",
             "dest": "/public/css/"
         },
@@ -28,6 +24,10 @@
         {
             "src": "/fonts/(.*)",
             "dest": "/public/fonts/"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
         }
     ],
     "public": true,
