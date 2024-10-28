@@ -15,19 +15,19 @@
         },
         {
             "src": "/css/(.*)",
-            "dest": "/public/css/$1"
+            "dest": "/public/css/"
         },
         {
             "src": "/js/(.*)",
-            "dest": "/public/js/$1"
+            "dest": "/public/js/"
         },
         {
             "src": "/img/(.*)",
-            "dest": "/public/img/$1"
+            "dest": "/public/img/"
         },
         {
             "src": "/fonts/(.*)",
-            "dest": "/public/fonts/$1"
+            "dest": "/public/fonts/"
         }
     ],
     "public": true,
