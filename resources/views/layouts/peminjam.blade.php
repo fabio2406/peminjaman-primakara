@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Fabio Ananda">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>@yield('title')</title>
     
     <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/x-icon">

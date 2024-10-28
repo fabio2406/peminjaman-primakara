@@ -7,6 +7,7 @@
   <title>Login - Sistem Informasi Manajemen Peminjaman</title>
   <meta name="description" content="">
   <meta name="author" content="Fabio Ananda">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/x-icon">
   <!-- Bootstrap CSS -->
   <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">

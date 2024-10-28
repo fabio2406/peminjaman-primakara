@@ -9,7 +9,26 @@
         }
     },
     "routes": [
-        {"src": "/(.*)","dest": "/api/index.php"}
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        },
+        {
+            "src": "/css/(.*)",
+            "dest": "/public/css/$1"
+        },
+        {
+            "src": "/js/(.*)",
+            "dest": "/public/js/$1"
+        },
+        {
+            "src": "/img/(.*)",
+            "dest": "/public/img/$1"
+        },
+        {
+            "src": "/fonts/(.*)",
+            "dest": "/public/fonts/$1"
+        }
     ],
     "public": true,
     "buildCommand": "vite build",
